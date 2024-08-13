@@ -487,13 +487,13 @@ td {
 
 
 
-
-
-
+  
+  
 .meet-our-team {
     max-width: 1800px;
     margin: 0 auto;
     color: white;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -502,6 +502,8 @@ td {
     width: 400px;
     height: 330px;
     border-radius: 20px;
+    object-fit: cover;
+    position: relative;
 }
 
 .image-container {
@@ -510,6 +512,35 @@ td {
     gap: 20px;
     margin: 50px 0;
 }
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 10px; /* Adjusted for bottom position */
+    left: 10px;   /* Adjusted for left position */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.text-overlay h1, .text-overlay h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-overlay h1 {
+    font-size: 1.5em;
+}
+
+.text-overlay h3 {
+    font-size: 1em;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 
 
 
@@ -600,12 +631,6 @@ hr {
 
 
 /* Footer section ends here */
-
-
-
-
-
-
 
 
 
