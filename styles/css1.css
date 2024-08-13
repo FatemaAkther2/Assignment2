@@ -943,6 +943,38 @@ hr {
 
 
 
+    
+    .footer-content {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 1100px;
+    }
+
+    .footer-list {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+
+    .footer-content div {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    footer p {
+        margin-left: 25px;
+    }
+
+    .footer-content div p {
+        margin-left: 0px;
+        width: 90%;
+    }
+
 
     
 }
