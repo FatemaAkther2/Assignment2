@@ -365,6 +365,86 @@ h5{
 
 
 
+
+
+
+
+
+
+
+.our-packages {
+    max-width: 1650px;
+    height: 780px;
+    margin: 0 auto;
+    padding: 10px;
+    /* background-color:li; */
+    border-radius: 30px;
+}
+
+.our-packages h1 {
+    margin-bottom: 40px;
+    color: white:
+    font-family: Inter;
+}
+
+.package-card h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Inter;
+}
+
+.package-card {
+    width: 380px;
+    height: 620px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 100);
+}
+
+.package-card img {
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.packages-desc {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.price {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    /* text-transform: uppercase; */
+    font-size: 1rem;
+    font-family: Inter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bmi-section {
     max-width: 1700px;
     margin: 0 auto;
@@ -817,8 +897,8 @@ hr {
     .card1 {
         width: 145px;
         height: 74px;
-        bottom: 300px;
-        left: 280px;
+        bottom: 440px;
+        left: 250px;
     }
 
     .card1 h1 {
@@ -851,6 +931,7 @@ hr {
     .card2 {
         width: 170px;
         height: 72px;
+        bottom: 270px;
         left: 90px;
     }
 
@@ -987,6 +1068,51 @@ hr {
     }
 
     
+
+
+
+
+
+
+
+
+    
+    .our-packages {
+        height: 2100px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .package-card {
+        height: 620px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .package-card h2 {
+        margin-top: 30px;
+    }
+
+    .package-card img {
+        width: 100%;
+    }
+
+    .package-card .desc {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+
+    .packages-desc {
+        flex-direction: column;
+        gap: 30px;
+    }
+
 
 
 
