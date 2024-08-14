@@ -24,6 +24,9 @@
     font-weight: 900; 
     font-style: italic;
 }
+.header{
+    padding: 0px;
+}
 
 .pri-col{
     color: rgb(230, 83, 60);
@@ -71,7 +74,7 @@
     padding-bottom: 20px;
 }
 .navbar, .banner{
-    width: 75%; /* Set a width less than 100% */
+    width: 75%;   
     margin: 0 auto;
 }
 
@@ -485,15 +488,34 @@ td {
     width: 570px;
 }
 
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 
-  
-  
+.title1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
 .meet-our-team {
     max-width: 1800px;
+    /* width: 80%; */
     margin: 0 auto;
     color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -502,8 +524,6 @@ td {
     width: 400px;
     height: 330px;
     border-radius: 20px;
-    object-fit: cover;
-    position: relative;
 }
 
 .image-container {
@@ -520,7 +540,7 @@ td {
 .text-overlay {
     position: absolute;
     bottom: 10px; /* Adjusted for bottom position */
-    left: 10px;   /* Adjusted for left position */
+    left: 10px;   
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1;
@@ -541,6 +561,15 @@ td {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.nav-brand {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
 
 
@@ -672,17 +701,30 @@ hr {
 
     .hide1{
         visibility: visible;
-
+        margin-left: 280px;
     }
 
+    
+.navbar{
+     justify-content: space-between; 
+      padding-left: 28px;
+     width: 100%; 
+    /* align-items: center; */
+    /* padding-top: 50px;
+    padding-bottom: 20px; */
+    padding-bottom: 50px;
+}
 
     .nav-cls {
         color: rgb(230, 83, 60);
+        width: 100%;
         font-family: Inter;
         font-size: 36px;
         font-weight: 800;
         line-height: 120%;
         letter-spacing: 0%;
+        padding-left: 0px;
+        margin-left: 0px;
         text-align: left;
     }
 
@@ -702,6 +744,59 @@ hr {
         padding-left: 20px;
         text-align: left;
     }
+
+
+
+    .nav-items {
+        width: 100%;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .nav-brand {
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .banner {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .banner-content {
+        width: 90%;
+        overflow: hidden;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .bah1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 285px;
+        height: 140px;
+    }
+
+    .ame{
+        font-size: 50px;
+    }
+
+
+
 
 
 
