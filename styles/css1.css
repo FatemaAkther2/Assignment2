@@ -67,6 +67,11 @@
 }
 
 
+
+
+
+
+
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -758,8 +763,6 @@ hr {
 
 
 
-
-
 /*  responsive  part     */
 
 
@@ -955,9 +958,9 @@ hr {
         text-align: left;
     }
 
-    .curcle {
-        top: 15px;
-    }
+    
+    
+
 
     .card2-content {
         width: 104px;
@@ -994,7 +997,61 @@ hr {
         padding: 10px;
     }
 
+    
 
+    .curcle {
+        top: 15px;
+        
+    }
+    
+.curcle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 15px solid white;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
 
 
 
